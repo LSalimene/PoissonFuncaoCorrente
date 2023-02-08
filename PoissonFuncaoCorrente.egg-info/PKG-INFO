@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PoissonFuncaoCorrente
+Version: 1.0.0
+Summary: Um pacote para o calculo da funcao corrente
+Home-page: UNKNOWN
+Author: Lucas Salimene
+Author-email: lucassalimene@protonmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Esse pacote utiliza métodos númericos iterativos para resolver a equação que relaciona a Função Corrente com a vorticidade
+
