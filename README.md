@@ -1,4 +1,4 @@
-[Github-flavored Markdown](https://github.com/LSalimene/PoissonFuncaoCorrente)
+[Github](https://github.com/LSalimene/PoissonFuncaoCorrente)
 
 PoissonFuncaoCorrente
 
