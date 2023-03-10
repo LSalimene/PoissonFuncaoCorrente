@@ -10,8 +10,8 @@ pip install PoissonFuncaoCorrente
 
 O pacote PoissonFuncaoCorrente é liberado sob a licença [MIT].
 
-#Exemplo de utilização
-'''
+## Exemplo de utilização
+```
 import PoissonFuncaoCorrente as fcp
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -31,4 +31,4 @@ dx = lx / (N-1)
 dy = ly / (N-1)
 
 psi = fcp.funcaocorrente(u,v,dx,dy)
-'''
+```
