@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+PoissonFuncaoCorrente/FCDirichlet.py
+PoissonFuncaoCorrente/FCsemomega.py
+PoissonFuncaoCorrente/FuncaoCorrente.py
+PoissonFuncaoCorrente/FuncaoCorrenteCC.py
+PoissonFuncaoCorrente/__init__.py
+PoissonFuncaoCorrente.egg-info/PKG-INFO
+PoissonFuncaoCorrente.egg-info/SOURCES.txt
+PoissonFuncaoCorrente.egg-info/dependency_links.txt
+PoissonFuncaoCorrente.egg-info/top_level.txt
