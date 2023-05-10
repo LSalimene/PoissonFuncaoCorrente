@@ -1,17 +1,23 @@
+import setuptools
 from setuptools import setup, find_packages  
-with open("README.md", "r") as fh:
-    description = fh.read()
-  
-setup(
+with open("README.md", "r", encoding = "utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
     name="PoissonFuncaoCorrente",
-    version="1.0.0",
+    version="1.1.2",
     author="Lucas Salimene",
     author_email="lucassalimene@protonmail.com",
-    packages=find_packages(),
     description="Um pacote para o calculo da funcao corrente",
     long_description="Esse pacote utiliza métodos númericos iterativos para resolver a equação que relaciona a Função Corrente com a vorticidade",
-    license='MIT',
-    long_description_content_type="text/markdown",
-    python_requires='>=3.8',
-    install_requires=['numpy']
+    long_description_content_type = "text/markdown",
+    url = "https://github.com/LSalimene/PoissonFuncaoCorrente",
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    packages = ["PoissonFuncaoCorrente"],
+    python_requires = ">=3.8"
 )
+
