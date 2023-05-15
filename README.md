@@ -1,32 +1,12 @@
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LSalimene/PoissonFuncaoCorrente)
 
-Esse pacote utiliza métodos númericos iterativos para resolver a equação que relaciona a Função Corrente com a vorticidade. 
+Esse pacote utiliza métodos numéricos iterativos para resolver a equação que relaciona a Função Corrente com a vorticidade. 
 
 Use o gerenciador de pacotes pip para instalar o pacote PoissonFuncaoCorrente com o comando:
 ```
 pip install PoissonFuncaoCorrente
 ```
-O pacote PoissonFuncaoCorrente é liberado sob a licença  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+O pacote PoissonFuncaoCorrente é liberado sob a licença [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Exemplo de utilização
-```
-import PoissonFuncaoCorrente as fcp
-import numpy as np
-import matplotlib.pyplot as plt 
-N = 100
-xmax = 1
-xmin = -1
-ymax = 1
-ymin = -1
-x = np.linspace(xmin,xmax,num=N)
-y = np.linspace(ymin,ymax,num=N)
-X,Y = np.meshgrid(x,y)
-u = (Y/(np.sqrt(X**2+Y**2)))*(1/(2*np.pi))
-v = (-X/(np.sqrt(X**2+Y**2)))*(1/(2*np.pi))
-lx = xmax-xmin
-ly = ymax-ymin
-dx = lx / (N-1)
-dy = ly / (N-1)
-
-psi = fcp.funcaocorrente(u,v,dx,dy)
-```
+Está disponível no[![colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1aKwpPa5s5m_UGB6XSI8iUpK37SoSeyBt?usp=sharing) um exemplo de utilização do pacote utilizando dados do modelo HYCOM para um vórtice na Confluência Brasil-Malvinas
