@@ -6,7 +6,7 @@ Use o gerenciador de pacotes pip para instalar o pacote PoissonFuncaoCorrente co
 
 ## pip install PoissonFuncaoCorrente
 
-O pacote PoissonFuncaoCorrente é liberado sob a licença [MIT].
+O pacote PoissonFuncaoCorrente é liberado sob a licença  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Exemplo de utilização
 ```
