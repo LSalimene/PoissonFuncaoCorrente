@@ -3,9 +3,9 @@
 Esse pacote utiliza métodos númericos iterativos para resolver a equação que relaciona a Função Corrente com a vorticidade. 
 
 Use o gerenciador de pacotes pip para instalar o pacote PoissonFuncaoCorrente com o comando:
-
-## pip install PoissonFuncaoCorrente
-
+```
+pip install PoissonFuncaoCorrente
+```
 O pacote PoissonFuncaoCorrente é liberado sob a licença  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Exemplo de utilização
