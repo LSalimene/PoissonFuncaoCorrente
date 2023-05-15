@@ -4,7 +4,7 @@ Esse pacote utiliza métodos númericos iterativos para resolver a equação que
 
 Use o gerenciador de pacotes pip para instalar o pacote PoissonFuncaoCorrente com o comando:
 
-##pip install PoissonFuncaoCorrente##
+## pip install PoissonFuncaoCorrente
 
 O pacote PoissonFuncaoCorrente é liberado sob a licença [MIT].
 
